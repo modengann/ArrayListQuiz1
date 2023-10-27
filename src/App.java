@@ -8,14 +8,22 @@
  *    2. If the int passed in is 0, you should print out all the even numbers from values. 
  *       If the int passed in is 1, you should print out all the odd numbers from values. 
  *       If the number is neither 0 nor 1 then do nothing.
- * 
+ *       ****************************************************
  *       For example:
  *       If the ArrayList contains [5, 4, 3, 2] and the user enters 0 for #1, you should
- *       print 4 and 2 because 4 and 2 are both even. Nothing else should print
+ *       print:
+ *       4
+ *       2 
  * 
+ *       Why: because 4 and 2 are both even. Nothing else should print
+ *       ****************************************************
  *       If the ArrayList contains [5, 4, 3, 2] and the user enters 1 for #1, you should
- *       print 5 and 3 because 5 and 3 are both even. Nothing else should print
- * 
+ *       print:
+ *       5
+ *       3 
+ *       
+ *       Why: because 5 and 3 are both even. Nothing else should print.
+ *       ****************************************************
  *       If the ArrayList contains [5, 4, 3, 2] and the user enters anything other than  
  *       for #1, you should print nothing.
  * 
@@ -41,13 +49,7 @@ public class App {
         System.out.println("");
         //Write your code below here
 
-        for(int num : values){
-            if(num < 5){
-                num *= 2;
-            }
-        }
-
-        System.out.println(values);
+        
 
     }
 }
