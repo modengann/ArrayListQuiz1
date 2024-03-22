@@ -24,7 +24,7 @@
  *       
  *       Why: because 5 and 3 are both odd. Nothing else should print.
  *       ****************************************************
- *       If the ArrayList contains [5, 4, 3, 2] and the user enters anything other than  
+ *       If the ArrayList contains [5, 4, 3, 2] and the user enters anything other than 0 or 1 
  *       for #1, you should print nothing.
  * 
  */
