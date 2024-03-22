@@ -4,7 +4,7 @@
  * 
  *  Your task:
  *  After the numbers have been collected, write code that will:
- *    1. Take an integer input from the 
+ *    1. Take an integer input from the user
  *    2. If the int passed in is 0, you should print out all the even numbers from values. 
  *       If the int passed in is 1, you should print out all the odd numbers from values. 
  *       If the number is neither 0 nor 1 then do nothing.
@@ -22,7 +22,7 @@
  *       5
  *       3 
  *       
- *       Why: because 5 and 3 are both even. Nothing else should print.
+ *       Why: because 5 and 3 are both odd. Nothing else should print.
  *       ****************************************************
  *       If the ArrayList contains [5, 4, 3, 2] and the user enters anything other than  
  *       for #1, you should print nothing.
